@@ -1,0 +1,97 @@
+@import url(paleta.css);
+
+@media screen and (min-width: 769px) {
+    .menu #menu {
+        display: none;
+    }
+
+    .display {
+        display: flex;
+    }
+
+    .arte-principal p {
+        font-size: 2.5rem;
+    }
+
+    header {
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: var(--padding-desktop);
+    }
+
+    main {
+        padding: var(--padding-desktop);
+        padding-top: 0;
+    }
+
+    footer {
+        padding: var(--padding-footer-desktop);
+    }
+
+    header h1 {
+        flex: auto;
+    }
+
+    nav {
+        flex-flow: row wrap;
+        flex: 1 1 auto;
+        gap: 20px;
+    }
+
+    #navbar a {
+        padding: 0;
+        background: transparent;
+        color: black;
+        transition: all .2s ease-out;
+    }
+
+    #navbar a:hover {
+        font-size: 1.05em;
+        color: rgb(200, 200, 200);
+        text-shadow: 1px 1px 1px rgb(0, 0, 0);
+        background: transparent;
+    }
+
+    #navbar a:active {
+        font-size: 0.95em;
+    }
+
+    #area-artes {
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    #area-artes article {
+        flex: 0 1 300px;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #area-artes article section {
+        flex: 1 1 300px;
+        aspect-ratio: 1/1;
+    }
+
+    .marca {
+        flex-flow: row nowrap;
+        padding: 80px 0;
+    }
+
+    .marca #imagem {
+        flex: 1 0 400px;
+    }
+
+    .marca #texto {
+        flex: 1 1 400px;
+    }
+
+    .formulario {
+        gap: 20%;
+    }
+
+    .artes-destaques input {
+        margin: 0;
+    }
+}

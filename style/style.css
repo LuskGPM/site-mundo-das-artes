@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url(paleta.css);
+
+/*------Fontes------*/
+
+.principal {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.secundaria {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "XOPQ" 96,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 712;
+}
+
+.autores {
+  font-family: "Viaoda Libre", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*-----Estilos-----*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+p {
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
+
+input[type="button"] {
+  font-size: 1.2em;
+  border-radius: 1em;
+  border: none;
+  background-color: var(--azul);
+  color: white;
+  transition: all .2s ease;
+}
+
+input[type="button"]:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+input[type="button"]:active {
+  transform: scale(0.95);
+}
+
+/*--------Header-------*/
+header {
+  width: 100%;
+  padding: var(--padding-mobile);
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.menu {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.menu #menu {
+  font-size: 2rem;
+  transition: all .2s ease-out;
+}
+
+.menu #menu:hover {
+  cursor: pointer;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.39);
+}
+
+.display {
+  display: none;
+}
+
+nav {
+  display: flex;
+  flex-flow: column nowrap;
+  border-radius: 5px;
+  overflow: hidden;
+  flex: 0 1 300px;
+}
+
+#navbar a {
+  flex: auto;
+  padding: 15px 40px;
+  color: white;
+  text-decoration: none;
+  text-align: start;
+  background-color: var(--azul);
+  transition: all .2s ease;
+}
+
+#navbar a:hover {
+  background-color: var(--azul-hover);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.338);
+}

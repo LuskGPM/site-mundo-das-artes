@@ -1,0 +1,52 @@
+@import url(paleta.css);
+
+.formulario {
+    display: flex;
+    flex-flow: row-reverse wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 0;
+}
+
+.formulario form {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    flex: auto;
+    align-items: stretch;
+}
+
+.formulario form fieldset {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    border: none;
+    text-align: start;
+}
+
+.formulario form input,
+.formulario form textarea {
+    padding: 7px 0;
+    padding-inline: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.39);
+    outline: none;
+}
+
+.formulario form input[type="button"] {
+    align-self: flex-start;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 1em;
+}
+
+.texto-formulario {
+    flex: 0 1 500px;
+}
+
+.texto-formulario h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}

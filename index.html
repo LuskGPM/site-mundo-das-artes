@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon/turtle.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/form.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/media.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Clone Site</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="principal">Espaço da arte</h1>
+        <div class="menu">
+            <span class="material-symbols-outlined" id="menu">menu</span>
+            <nav id="navbar" class="display">
+                <a href="#" class="secundaria">Serviços</a>
+                <a href="#" class="secundaria">Quem Somos</a>
+                <a href="#" class="secundaria">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <a href="https://www.pexels.com/pt-br/foto/fotografia-de-foco-raso-de-pincel-102127/"
+            style="text-decoration: none; cursor: auto;" target="_blank">
+            <section class="arte-principal">
+                <p class="principal">Aprecie o encanto da arte</p>
+            </section>
+        </a>
+        <section class="artes-destaques">
+            <h2 class="principal">Artes</h2>
+            <div id="area-artes">
+                <article class="arte1">
+                    <section name="arte1"></section>
+                    <div class="texto-artes">
+                        <h3 class="principal">Pintura de Girafa</h3>
+                        <p class="secundaria">Uma pintura ralizada com aquarela em tons claros e pastéis</p>
+                        <a href="https://www.pexels.com/pt-br/foto/pintura-de-girafa-3246665/" class="autores"
+                            target="_blank">Ekrulila</a>
+                    </div>
+                </article>
+                <article class="arte2">
+                    <section name="arte2"></section>
+                    <div class="texto-artes">
+                        <h3 class="principal">Worms Eye</h3>
+                        <p class="secundaria">Registro de vista em espiral dos vitrais em espiral através do telhado</p>
+                        <a href="https://www.pexels.com/pt-br/foto/worms-eye-view-of-spiral-stained-glass-decors-through-the-roof-161154/"
+                            class="autores" target="_blank">Pixabay</a>
+                    </div>
+                </article>
+                <article class="arte3">
+                    <section name="arte3"></section>
+                    <div class="texto-artes">
+                        <h3 class="principal">Pintura de casa amarela e marrom</h3>
+                        <p class="secundaria">Pintura que retrata o ponto de vista de um reflexo em águas calmas
+                        </p>
+                        <a href="https://www.pexels.com/pt-br/foto/pintura-de-casa-amarela-e-marrom-164455/"
+                            class="autores" target="_blank">Pixabay</a>
+                    </div>
+                </article>
+            </div>
+            <input type="button" value="Ver mais">
+        </section>
+        <article class="marca">
+            <section id="imagem"></section>
+            <section id="texto">
+                <h2 class="principal">Mais sobre o mundo das artes</h2>
+                <p class="secundaria">Descubra o mundo das artes e permita que a criatividade e a imaginação o
+                    transportem. Clique em Ver mais para mergulhar nesse universo de beleza e inspiração!</p>
+                <input type="button" value="Ver mais">
+            </section>
+        </article>
+        <aside class="formulario">
+            <form action="">
+                <fieldset>
+
+                    <label for="nome" class="secundaria">Nome</label>
+                    <label for="sobrenome" class="secundaria">Sobrenome</label>
+                    <input type="text" id="nome" required minlength="3">
+                    <input type="text" id="sobrenome" required minlength="3">
+
+                </fieldset>
+                <label for="email" class="secundaria">E-mail</label>
+                <input type="email" id="email" required minlength="5" autocomplete="email">
+                <label for="msg" class="secundaria">Mensagem</label>
+                <textarea name="msg" id="msg" rows="4"></textarea>
+                <input type="button" value="Enviar">
+            </form>
+            <div class="texto-formulario">
+                <h1 class="principal">Fale Conosco</h1>
+                <p class="secundaria">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dicta dignissimos
+                    dolorem nemo iusto commodi voluptatem adipisci, laborum officia? Excepturi consequatur accusamus
+                    illum maiores cum adipisci temporibus vel eveniet porro.</p>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <div>
+            <h1 class="principal">Espaço da arte</h1>
+            <p class="secundaria">Fale com <a href="https://github.com/LuskGPM" target="_blank">LuskGPM</a></p>
+        </div>
+        <div class="informacoes">
+            <h2 class="principal">localização</h2>
+            <p class="secundaria">Rua do exemplo, 021 Brasil</p>
+            <h2 class="principal">Contato</h2>
+            <p class="secundaria">lucasgpm00@gmail.com</p>
+        </div>
+    </footer>
+</body>
+<script src="javascript/script.js"></script>
+
+</html>

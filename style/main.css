@@ -1,0 +1,161 @@
+@import url(paleta.css);
+
+/*-----main-----*/
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    padding: var(--padding-mobile);
+}
+
+/*-----arte principal-----*/
+
+.arte-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    background-image: url(../img/pexels-daiangan-102127.jpg);
+    aspect-ratio: 16/9;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: inset 2px 2px 10px 3px rgba(0, 0, 0, 0.582);
+}
+
+.arte-principal p {
+    font-size: 1.8rem;
+    color: white;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.568);
+}
+
+/*-----artes destaque-----*/
+
+.artes-destaques {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+}
+
+.artes-destaques h2 {
+    margin: 20px auto;
+    font-size: 2em;
+}
+
+.artes-destaques input {
+    padding: 10px 30px;
+    margin: 20px 0 30px 0;
+}
+
+#area-artes {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    gap: 20px;
+    width: 100%;
+}
+
+#area-artes article {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 400px;
+}
+
+#area-artes article section {
+    flex: 0 0 250px;
+    aspect-ratio: 3/4;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: inset 2px 2px 10px 3px rgba(0, 0, 0, 0.582);
+    border-radius: 5px;
+}
+
+#area-artes .arte1 section {
+    background-image: url(../img/pexels-ekrulila-3246665.jpg);
+}
+
+#area-artes .arte2 section {
+    background-image: url(../img/pexels-pixabay-161154.jpg);
+}
+
+#area-artes .arte3 section {
+    background-image: url(../img/pexels-pixabay-164455.jpg);
+}
+
+#area-artes article div {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+
+.texto-artes {
+    flex: 0 1 200px;
+    gap: 10px;
+}
+
+.texto-artes h3 {
+    font-size: 1.2rem;
+    text-shadow: 0 0px 2px rgba(0, 0, 0, 0.217);
+    text-transform: capitalize;
+}
+
+.texto-artes a {
+    color: black;
+    text-decoration: none;
+}
+
+.texto-artes a:hover {
+    text-decoration: underline;
+    color: var(--azul);
+    text-shadow: 0 0px 3px rgba(0, 0, 0, 0.217);
+}
+
+/*----Marca----*/
+
+.marca {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 40px;
+}
+
+.marca h2 {
+    text-align: start;
+    margin: 20px auto;
+    font-size: 2.3em;
+}
+
+.marca #imagem {
+    flex: 1 1 250px;
+    aspect-ratio: 16/9;
+    background-image: url(../img/pexels-thomas-balabaud-735585-1579708.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: inset 2px 2px 10px 3px rgba(0, 0, 0, 0.582);
+}
+
+.marca #texto {
+    flex: 1 1 250px;
+    text-align: justify;
+    font-size: 1em;
+    text-shadow: 0 0px 2px rgba(0, 0, 0, 0.217);
+}
+
+.marca #texto p {
+    text-indent: 2em;
+}
+
+.marca #texto input {
+    padding: 15px 40px;
+    margin: 40px auto;
+    font-size: 1.5em;
+}
+
+/*-----fale conosco-----*/

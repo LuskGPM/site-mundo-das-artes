@@ -1,0 +1,25 @@
+@import url(paleta.css);
+
+footer {
+    padding: var(--padding-footer-mobile);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: start;
+    gap: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor4);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.178);
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer div {
+    flex: 0 1 auto;
+}
