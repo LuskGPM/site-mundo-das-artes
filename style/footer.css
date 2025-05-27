@@ -3,10 +3,10 @@
 footer {
     padding: var(--margin-footer-mobile);
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: start;
-    gap: 10px;
+    gap: 30px;
 }
 
 footer a {

@@ -59,15 +59,15 @@ main {
 
 #area-artes article {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
-    flex: 1 0 400px;
+    flex: 1 1 400px;
 }
 
 #area-artes article section {
-    flex: 0 1 200px;
+    flex: 1 1 200px;
     aspect-ratio: 3/4;
     background-size: cover;
     background-position: center center;
