@@ -6,7 +6,7 @@ main {
     display: flex;
     flex-flow: column nowrap;
     width: 100%;
-    padding: var(--padding-mobile);
+    padding: var(--margin-mobile);
 }
 
 /*-----arte principal-----*/
@@ -17,7 +17,7 @@ main {
     align-items: center;
     flex: 1 1 auto;
     background-image: url(../img/pexels-daiangan-102127.jpg);
-    aspect-ratio: 16/9;
+    aspect-ratio: 1/1;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ main {
 }
 
 .arte-principal p {
-    font-size: 1.8rem;
+    font-size: 5vw;
     color: white;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.568);
 }
@@ -67,7 +67,7 @@ main {
 }
 
 #area-artes article section {
-    flex: 0 0 250px;
+    flex: 0 1 200px;
     aspect-ratio: 3/4;
     background-size: cover;
     background-position: center center;
@@ -95,7 +95,7 @@ main {
 }
 
 .texto-artes {
-    flex: 0 1 200px;
+    flex: 1 1 200px;
     gap: 10px;
 }
 
@@ -132,7 +132,8 @@ main {
 }
 
 .marca #imagem {
-    flex: 1 1 250px;
+    flex: auto;
+    width: 100%;
     aspect-ratio: 16/9;
     background-image: url(../img/pexels-thomas-balabaud-735585-1579708.jpg);
     background-size: cover;

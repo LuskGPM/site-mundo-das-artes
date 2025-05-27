@@ -3,8 +3,8 @@
     --azul: #3E6E8C;
     --azul-hover: #5ea3cebf;
     --fonte: #401801;
-    --padding-mobile: 10px 5vw;
-    --padding-footer-mobile: 100px 5vw;
-    --padding-desktop: 20px 3vw;
-    --padding-footer-desktop: 100px 3vw;
+    --margin-mobile: 10px 5vw;
+    --margin-footer-mobile: 100px 5vw;
+    --margin-desktop: 20px 3vw;
+    --margin-footer-desktop: 100px 3vw;
 }

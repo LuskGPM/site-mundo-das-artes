@@ -13,20 +13,24 @@
         font-size: 2.5rem;
     }
 
+    .arte-principal {
+        aspect-ratio: 16/9;
+    }
+
     header {
         flex-flow: row wrap;
         justify-content: space-between;
         align-items: flex-end;
-        padding: var(--padding-desktop);
+        padding: var(--margin-desktop);
     }
 
     main {
-        padding: var(--padding-desktop);
+        padding: var(--margin-desktop);
         padding-top: 0;
     }
 
     footer {
-        padding: var(--padding-footer-desktop);
+        padding: var(--margin-footer-desktop);
     }
 
     header h1 {

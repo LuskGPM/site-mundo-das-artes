@@ -1,7 +1,7 @@
 @import url(paleta.css);
 
 footer {
-    padding: var(--padding-footer-mobile);
+    padding: var(--margin-footer-mobile);
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;

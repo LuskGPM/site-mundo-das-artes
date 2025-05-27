@@ -76,7 +76,7 @@ input[type="button"]:active {
 /*--------Header-------*/
 header {
   width: 100%;
-  padding: var(--padding-mobile);
+  padding: var(--margin-mobile);
   display: flex;
   flex-flow: column nowrap;
 }
